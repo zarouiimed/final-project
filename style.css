@@ -75,6 +75,9 @@ section {
   margin-bottom: 40px;
   transition: 0.5s;
 }
+.main-btn:hover{
+  transform: scale(1.1)
+}
 
 
 .social-icons a {
@@ -193,6 +196,5 @@ section{
 padding:80px 20px ;
 
 }
-
 }
 
