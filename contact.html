@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="stylec.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my personal website</title>
+  <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    <h1>you have made the right decision to work with me</h1>
-    <form onsubmit="return verif()" id="contact">
-        <fieldset><legend>contact us</legend>
-            <label>Name :</label><input type="text" id="t1"><br>
-            <label>Family-name :</label><input type="text" id="t2"><br>
-            <label>E-mail :</label><input type="email" id="t3"><br>
-            <label>your order :</label><input type="text" id="t4">
-        </fieldset>
-        <input type="submit" value="submit"><input type="reset" value="reset">
-    </form>
+
+  <a href="index.html"><input type="button" value="Return" id="btn"></a>
+<div id="overlay">
+<form onsubmit="event.preventDefault();validateForm()">
+<h1>Thanks for your interest</h1>
+
+<label for="name">Name</label>
+<input type="text" id="name" placeholder="your name">
+<small class="error"></small>
+
+<label for="email">Email</label>
+<input type="text" id="email" placeholder="Your email">
+<small class="error"></small>
+
+<label for="message">Message</label>
+<textarea  id="message" placeholder="your message" rows="6"></textarea>
+<small class="error"></small>
+<div class="class center">
+ <input type="submit" value="Send Message">
+ <p id="success"></p>
+
+</div>
+
+  </form>
+</div>
+
+  <script src="index.js"></script>
 </body>
-<script src="contact.js"></script>
 </html>

@@ -1,0 +1,90 @@
+* {
+font-family: Arial;
+padding-bottom: 20px;
+}
+
+body{
+background-color:rgb(245, 242, 202);
+margin:0;
+}
+form {
+max-width: 500px;
+width: 90%;
+background-color: white;
+margin: 17vh auto 0 auto ;
+padding:25px;
+border-radius: 20px;
+box-sizing: border-box;
+}
+h1 {
+margin:0;
+text-align: center;
+}
+
+label{
+display: block;
+margin: 20px 0;
+}
+input,textarea{
+width: 100%;
+padding: 10px;
+box-sizing: border-box;
+outline: none;
+resize: none;
+border:none ;
+border-bottom: 1px solid #D3D3D3;
+}
+input[type="submit"]{
+margin-top: 30px;
+width: 90%;
+max-width: 200px;
+background-color: rgb(11, 11, 88);
+color: white;
+border-radius: 10px;
+transition: 0.5s;
+}
+input[type="submit"]:hover{
+    background-color: rgb(7, 7, 56);
+    transform: scale(1.1);
+}
+
+.error{
+color:red;
+}
+.error-border{
+border-bottom: 1px solid red;
+}
+#success{
+color: green;
+}
+
+#btn{
+margin-top: 30px;
+margin-left: 30px;
+width: 200px;
+height: 35px;
+border-radius: 10px;
+background-color: rgb(11, 11, 88);
+color:white;
+transition: 0.5s;
+}
+#btn:hover {
+background-color: rgb(7, 7, 56);
+transform: scale(1.1);
+  }
+  @media (max-width:1023px){
+    header{
+    padding: 12px 20px;
+    }
+#btn{
+margin-left: 40px;
+
+}
+
+
+
+
+
+
+
+  

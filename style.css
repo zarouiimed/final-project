@@ -1,178 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-*{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-header{
-background-color:orange ;
-width: 100%;
-position: fixed;
-z-index: 999;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 10px 200px;
+header {
+  background-color: orange;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
 }
-.logo{
-text-decoration: none;
-color:maroon;
-text-transform:uppercase ;
-font-weight: 800;
-font: size 2em; ;
+.logo {
+  text-decoration: none;
+  color: maroon;
+  text-transform: uppercase;
+  font-weight: 800;
+  font: size 2em;
 }
-.navigation a{
-color:maroon ;
-text-decoration: none;
-font-size: 1.1em;
-font-weight: 500;
-padding-left: 30px;
+.navigation a {
+  color: maroon;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
 }
-.navigation a:hover{
-color: rgb(92, 92, 62);
-
+.navigation a:hover {
+  color: rgb(92, 92, 62);
 }
 section {
-    padding: 100px 200px;
+  padding: 100px 200px;
+}
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: rgb(245, 242, 202);
+}
+.main h2 {
+  color: rgb(107, 2, 2);
+  font-size: 1.4em;
+  font-weight: 700;
+}
+.main h2 span {
+  margin-top: 10px;
+  display: inline-block;
+  color: rgb(14, 14, 102);
+  font-size: 2em;
+}
+.main h3 {
+  color: rgb(107, 2, 2);
+  font-size: 1.7em;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.main-btn {
+  color: white;
+  background-color: rgb(14, 14, 102);
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 700;
+  display: inline-block;
+  padding: 13px;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.5s;
+}
 
+
+.social-icons a {
+  font-size: 1.7em;
+  padding-right: 20px;
 }
-.main{
-width: 100%;
-min-height: 100vh;
-display: flex;
-align-items: center;
-background-color: rgb(245, 242, 202);
+.title {
+  display: flex;
+  justify-content: center;
+  color: rgb(14, 14, 102);
+  font-size: 2.5em;
+  font-weight: 800;
+  margin-bottom: 30px;
 }
-.main h2{
-color: rgb(107, 2, 2);
-font-size: 1.4em;
-font-weight: 700;
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-.main h2 span{
-    margin-top: 10px;
-display: inline-block;
-color:rgb(14, 14, 102) ;
-font-size: 2em;
-}
-.main h3{
-    color: rgb(107, 2, 2);
-font-size: 1.7em;
-font-weight: 800;
-margin-top: 10px;
-margin-bottom: 30px;
-}
-.main-btn{
-color:white;
-background-color:rgb(14, 14, 102) ;
-text-decoration: none;
-font-size: 1.3em;
-font-weight: 700;
-display: inline-block;
-padding: 13px;
-letter-spacing: 1px;
-border-radius: 15px;
-margin-bottom: 40px;
-transition: 0.5s;
-}
-.main-btn:hover{
-background-color:rgb(7, 7, 56) ;
-transform: scale(1.1);
-}
-.social-icons a{
-font-size: 1.7em;
-padding-right: 20px;
-}
-.title{
-display: flex;
-justify-content: center;
-color:rgb(14, 14, 102);
-font-size: 2.5em;
-font-weight: 800;
-margin-bottom: 30px;
-}
-.content{
-display: flex;
-justify-content: center;
-flex-direction: row;
-flex-wrap: wrap;
-}
-.card{
-background-color:white ;
-width: 280px;
-box-shadow: 0 5px 25px rgba( 1 1 1 / 20%);
-border-radius: 15px;
-padding: 25px;
-margin: 15px;
-transition: 0.5s ease;
+.card {
+  background-color: white;
+  width: 280px;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 20%);
+  border-radius: 15px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.5s ease;
 }
 .card:hover {
-transform: scale(1.1);
+  transform: scale(1.1);
 }
-.icon{
-color: rgb(11, 11, 88);
-font-size: 120px;
-text-align: center;
+.icon {
+  color: rgb(11, 11, 88);
+  font-size: 120px;
+  text-align: center;
 }
-.info{
-text-align: center;
+.info {
+  text-align: center;
+}
 
+.info h3 {
+  color: rgb(11, 11, 88);
+  font-size: 20px;
+  font-weight: 800;
+  margin: 10px;
 }
-
-.info h3{
-color:rgb(11, 11, 88);
-font-size: 20px;
-font-weight: 800;
-margin: 10px;
+.projects {
+  background-color: rgb(245, 242, 202);
 }
-.projects{
-background-color: rgb(245, 242, 202);
+.projects .content {
+  margin-top: 30px;
 }
-.projects .content{
-margin-top: 30px;  
+.project-card {
+  background-color: white;
+  border: 2px solid orange;
+  min-height: 220px;
+  width: 250px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.5s ease;
 }
-.project-card{
-background-color: white;
-border: 2px solid orange;
-min-height: 220px;
-width: 250px;
-overflow: hidden;
-border-radius: 10px;
-margin: 20px;
-transition: 0.5s ease;
+.project-card:hover {
+  transform: scale(1.1);
 }
-.project-card:hover{
-transform:scale(1.1)
+.project-image img {
+  width: 100%;
 }
-.project-image img{
-width: 100%;
-}
-.project-info{
-padding: 15px;
+.project-info {
+  padding: 15px;
 }
 .project-category {
-font-size: 15px;
+  font-size: 15px;
 }
-.project-title{
-display: flex;
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.more-details {
+  text-decoration: none;
+}
+.more-details:hover {
+  color: blueviolet;
+}
+
+.footer{
+background-color:rgb(11, 11, 88) ;
+color:white;
+padding:2em;
+display:flex;
 justify-content: space-between;
-text-transform: uppercase;
-margin-top: 10px;
 }
-.more-details{
-    text-decoration: none;
-}
-.more-details:hover{
-color: blueviolet;
+.footer-title{
+font-size: 1.3em;
+font-weight: 600;
 }
 
+@media (max-width:1023px){
+header{
+padding: 12px 20px;
+}
 
+.navigation a{
+padding-left: 10px;
 
+}
+.title{
+font-size: 1.8em;
 
+}
 
+section{
+padding:80px 20px ;
 
+}
 
+}
 
